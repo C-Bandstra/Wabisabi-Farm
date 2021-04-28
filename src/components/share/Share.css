@@ -38,10 +38,17 @@
 .share-header-1,
 .share-header-2 {
   color: #FFFFFF;
+  
   text-align: left;
   width: 100%;
 }
 
 .share-header-1 {
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.135em;
   color: rgba(255, 255, 255, 0.7);
 }

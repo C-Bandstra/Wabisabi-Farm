@@ -1,15 +1,13 @@
 import './Share.css';
 import '../../index.css';
-// import Header from '../header/Header'
 
 const Share = () => {
   return (
     <div className="share">
-      {/* <Header h1="COMMUNITY" h2="Wabisabi Farm Share" /> */}
       <div className="content">
         <section className="share-header-container">
-          <header className="share-header-1 header-1">COMMUNITY</header>
-          <header className="share-header-2 header-2">Wabisabi Farm Share</header>
+          <h2 className="share-header-1 header-1">COMMUNITY</h2>
+          <h3 className="share-header-2 header-2">Wabisabi Farm Share</h3>
         </section>
         <p className="share-text">A Wabi Sabi Farm Share is a 
         customizable share which allows our members to select 
