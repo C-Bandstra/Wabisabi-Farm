@@ -6,6 +6,7 @@ import About from "../about/About"
 import Share from "../share/Share"
 import Offer from "../offer/Offer"
 import Info from "../info/Info"
+import CTA from "../cta/CTA"
 
 class App extends Component {
   constructor() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Share />
         <Offer />
         <Info />
+        <CTA />
       </div>
     );
   }
