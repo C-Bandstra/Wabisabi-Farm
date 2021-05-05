@@ -1,0 +1,52 @@
+.cta {
+  width: 100%;
+  height: 60vh;
+  background-color: #8A5A44;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cta-icon-container {
+  width: 30%;
+  height: 100%;
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cta-header {
+  margin: 0;
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.135em;
+  color: #CBD7C7;
+}
+
+.cta-content {
+  width: 55%;
+  height: 55%;
+  align-self: center;
+  text-align: left;
+}
+
+.cta-text {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #CBD7C7;
+}
+
+.grow-icon {
+  box-sizing: border-box;
+  width: 100%;
+  height: 90%;
+}
+
+.arrow {
+  width: 27%;
+}
