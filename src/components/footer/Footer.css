@@ -1,0 +1,40 @@
+.footer {
+  background-color: #774936;
+  display: flex;
+  padding: 60px 10px;
+  justify-content: center;
+}
+
+.foot-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.foot-column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 250px;
+}
+
+.foot-link {
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  width: fit-content;
+  
+}
+
+.facebook-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.center {
+  margin: 40px 0px;
+}
