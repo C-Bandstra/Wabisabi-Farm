@@ -8,6 +8,7 @@ import Offer from "../offer/Offer"
 import Info from "../info/Info"
 import CTA from "../cta/CTA"
 import Contact from "../contact/Contact"
+import Footer from "../footer/Footer"
 
 class App extends Component {
   constructor() {
@@ -23,6 +24,7 @@ class App extends Component {
         <Info />
         <CTA />
         <Contact />
+        <Footer />
       </div>
     );
   }
