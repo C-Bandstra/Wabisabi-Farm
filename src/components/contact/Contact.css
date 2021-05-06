@@ -1,0 +1,100 @@
+.contact {
+  height: 100vh;
+  background-color: #B07D62;
+  padding: 0% 10%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-header {
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.135em;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+.contact-text {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.contact-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 90px 0px;
+
+}
+
+.contact-input {
+  width: 69%;
+  padding: 12px 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background-color: #B07D62;
+  outline: none;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-input:focus {
+  color:  #6C6C6C;
+  background-color: #FFFFFF;
+}
+
+.contact-input:focus::placeholder {
+  color:  #6C6C6C;
+}
+
+textarea.contact-input {
+  /* remove base styling */
+  border: 2px solid white;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.contact-btn {
+  background: #E09F3E;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px 58px;
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
