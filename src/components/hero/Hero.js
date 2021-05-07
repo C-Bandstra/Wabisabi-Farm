@@ -1,19 +1,29 @@
 import './Hero.css';
 import NavBar from "../navbar/NavBar"
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
+
 
 const Hero = () => {
+  // const history = useHistory();
+  
+  // const routeChange = (url) =>{ 
+  //   let path = `/${url}`; 
+  //   history.push(path);
+  // }
+
   return (
     <div className="hero">
       <div className="header">
         <img className="logo" src="/assets/logo.png" />
         <div className="nav">
-           <Link className="link" to="/Home">Home</Link>
-           <Link className="link" to="/About">About</Link>
-           <Link className="link" to="/Services">Services</Link>
-           <Link className="link" to="/Team">Team</Link>
-           <Link className="link" to="/Portfolio">Portfolio</Link>
-           <Link className="link" to="/Contact">Contact</Link>
+           <AnchorLink className="link" href="#Home">Home</AnchorLink>
+           <AnchorLink className="link" href="#About">About Us</AnchorLink>
+           <Link className="link" to="/Availability">Food Availability</Link>
+           <AnchorLink className="link" href="#Info" offset="-40">Info</AnchorLink>
+           <AnchorLink className="link" href="#Contact">Contact</AnchorLink>
+           <Link className="link" to="/FAQs">FAQs</Link>
            <span className="vertical-line"></span>
            <Link className="link" to="/Join">Join Us</Link>
         </div>

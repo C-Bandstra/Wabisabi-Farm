@@ -3,7 +3,7 @@ import Header from '../header/Header'
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="About" className="about">
       <Header h1="ABOUT US" h2="Who We Are" />
       <section className="text-container">
         <p className="about-text">We are a Certified Organic Fruit, Vegetable,
