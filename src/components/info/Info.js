@@ -3,7 +3,7 @@ import '../../index.css';
 
 const Info = () => {
   return (
-    <div className="info">
+    <div id="Info" className="info">
       <section className="info-header-container">
         <h4 className="info-header-1">INFO</h4>
         <h5 className="info-header-2">How It Works</h5>
