@@ -1,14 +1,7 @@
 import './App.css';
 import React, { Component } from "react"
-import NavBar from "../navbar/NavBar"
-import Hero from "../hero/Hero"
-import About from "../about/About"
-import Share from "../share/Share"
-import Offer from "../offer/Offer"
-import Info from "../info/Info"
-import CTA from "../cta/CTA"
-import Contact from "../contact/Contact"
-import Footer from "../footer/Footer"
+import Home from '../home/Home'
+import { Switch, Route } from "react-router-dom";
 
 class App extends Component {
   constructor() {
@@ -17,14 +10,17 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <Hero />
-        <About />
-        <Share />
-        <Offer />
-        <Info />
-        <CTA />
-        <Contact />
-        <Footer />
+        <Switch>
+          <Route path="/FoodAvailability">
+
+          </Route>
+          <Route path="/Join">
+    
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </div>
     );
   }
