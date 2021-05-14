@@ -1,29 +1,30 @@
 import './App.css';
-import React, { Component } from "react"
+import React from "react"
 import Home from '../home/Home'
 import { Switch, Route } from "react-router-dom";
+import Availability from '../availability/Availability'
+import FAQ from '../faq/FAQ'
 
-class App extends Component {
-  constructor() {
-    super()
-  }
-  render () {
-    return (
-      <div className="App">
-        <Switch>
-          <Route path="/FoodAvailability">
+const App = () => {
 
-          </Route>
-          <Route path="/Join">
-    
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <Switch>
+        <Route path="/Availability">
+          <Availability />
+        </Route>
+        <Route path="/FAQS">
+          <FAQ />
+        </Route>
+        <Route path="/Join">
+          
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </div>
+  );
 }
 
 
