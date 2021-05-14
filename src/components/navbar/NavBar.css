@@ -1,8 +1,37 @@
-.navbar {
-  width: 50%;
+.header {
+  width: 100%;
   display: flex;
-  justify-self: flex-end;
-  position: absolute;
-  top: 8px;
-  /* right: 16px; */
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  padding: 0px 30px;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+}
+
+.logo {
+  height: 25vh;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 15px;
+  letter-spacing: 0.135em;
+  color: #FFFFFF;
+}
+
+.vertical-line {
+  height: 5vh;
+  width: 2px;
+  background-color: white;
 }
