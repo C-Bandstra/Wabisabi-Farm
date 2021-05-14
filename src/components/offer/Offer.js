@@ -6,7 +6,7 @@ const Offer = () => {
     <div className="offer">
 
       <section className="offer-card save">
-        <div className="icon-container save-container">
+        <div className="icon-container">
           <img src="/assets/save.png" className="offer-icon save-icon"/>
         </div>
         <p className="card-header">Save Money.</p>
