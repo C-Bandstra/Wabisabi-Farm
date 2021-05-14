@@ -21,22 +21,3 @@ body::-webkit-scrollbar {
   scrollbar-width: none;
   
 }
-
-.header-1 {
-  font-family: Ruda;
-  font-style: normal;
-  font-weight: bold;
-  margin: 0;
-  text-align: center;
-  letter-spacing: 0.135em;
-}
-
-.header-2 {
-  font-family: Dosis;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.6em;
-  margin: 0;
-  width: 50%;
-  text-align: center;
-}
