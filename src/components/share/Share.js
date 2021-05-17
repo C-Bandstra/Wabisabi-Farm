@@ -7,7 +7,7 @@ const Share = () => {
       <div className="content">
         <section className="share-header-container">
           <h2 className="share-header-1 header-1">COMMUNITY</h2>
-          <h3 className="share-header-2 header-2">Wabisabi Farm Share</h3>
+          <h3 className="share-header-2 header-2">Wabi Sabi Farm Share</h3>
         </section>
         <p className="share-text">A Wabi Sabi Farm Share is a 
         customizable share which allows our members to select 
