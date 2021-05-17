@@ -1,6 +1,5 @@
 .info {
-  height: 110vh;
-  width: 100%;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,8 +8,6 @@
 }
 
 .info-header-container {
-  width: 20%;
-  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,8 +38,9 @@
 }
 
 .info-text-container {
-  width: 55%;
-  height: 60%;
+  max-width: 750px;
+  /* width: 100%; */
+  padding: ;
   display: flex;
   text-align: left;
   flex-direction: column;
