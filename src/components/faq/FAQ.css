@@ -1,0 +1,18 @@
+.faq {
+  background-color: #CBD7C7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 200px 80px ;
+}
+
+.faq-header {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 10px;
+}
