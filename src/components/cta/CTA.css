@@ -1,6 +1,7 @@
+
 .cta {
   width: 100%;
-  height: 60vh;
+  padding-top: 30px;
   background-color: #8A5A44;
   display: flex;
   justify-content: space-evenly;
@@ -8,7 +9,6 @@
 
 .cta-icon-container {
   width: 30%;
-  height: 100%;
   align-self: flex-end;
   display: flex;
   align-items: flex-end;
@@ -27,9 +27,9 @@
 
 .cta-content {
   width: 55%;
-  height: 55%;
   align-self: center;
   text-align: left;
+  text-decoration: none;
 }
 
 .cta-text {
@@ -38,13 +38,14 @@
   font-weight: 600;
   font-size: 38px;
   line-height: 48px;
+  margin: 20px 0px;
   color: #CBD7C7;
 }
 
 .grow-icon {
   box-sizing: border-box;
   width: 100%;
-  height: 90%;
+  padding-top: 10px;
 }
 
 .arrow {

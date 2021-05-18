@@ -1,5 +1,3 @@
-// import './.css';
-import NavBar from "../navbar/NavBar"
 import Hero from "../hero/Hero"
 import About from "../about/About"
 import Share from "../share/Share"
