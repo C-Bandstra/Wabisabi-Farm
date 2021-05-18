@@ -1,10 +1,12 @@
 import './NavBar.css';
 import utilities from '../../utilities'
-import { Link } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+import { useState } from 'react'
+import { useHistory, Link } from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const NavBar = () => {
+const NavBar = ({ type, title }) => {
+  const [ showHeader, updateBool ] = useState(false);
+
   const history = useHistory();
 
   const generateRoutes = () => {
@@ -41,11 +43,12 @@ const NavBar = () => {
 
 
   return (
-      <div className="header">
-        <img className="logo" src="/assets/logo.png" />
-        <div className="nav">
+      <div className={`nav-header ${type}`}>
+        <img className={`logo ${type}`} src="/assets/logo.png" />
+        <div className={`nav ${type}`}>
            {routes}
         </div>
+        { title }
     </div>
   );
 }
