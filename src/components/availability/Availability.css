@@ -1,3 +1,22 @@
 .availability {
-  background-color: black;
+  background-color: #D5DFD2;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.graph {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.legend {
+  display: flex;
+  border: 2px solid black;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+
+.label {
+  margin: 0px 10px;
 }
