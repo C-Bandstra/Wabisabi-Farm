@@ -5,6 +5,8 @@ import Offer from "../offer/Offer"
 import Info from "../info/Info"
 import CTA from "../cta/CTA"
 import Contact from "../contact/Contact"
+import FooterNav from "../footerNav/FooterNav"
+import Footer from "../footer/Footer"
 
 const Home = () => {
   return (
@@ -14,8 +16,10 @@ const Home = () => {
       <Share />
       <Offer />
       <Info />
-      <CTA />
+      <CTA type="grow" image="/assets/grow.png" header="GROWING PRACTICES" text="Learn more about how we grow our vegetables and what we put into the soil."/>
       <Contact />
+      <FooterNav />
+      <Footer />
     </section>
   );
 }

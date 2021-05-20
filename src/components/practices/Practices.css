@@ -1,1 +1,27 @@
+.practices {
+  background-color: #D5DFD2;
+  padding: 70px 220px;
+}
 
+.practices-header {
+  font-family: Dosis;
+  font-style: normal;
+  margin-bottom: 35px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+
+.practices-content {
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: left;
+  margin: 35px 0px;
+}

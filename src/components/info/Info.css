@@ -38,7 +38,7 @@
 }
 
 .info-text-container {
-  max-width: 750px;
+  max-width: 810px;
   /* width: 100%; */
   padding: ;
   display: flex;
@@ -60,18 +60,14 @@
 }
 
 .join-us-btn {
-  height: 7%;
-  width: 12%;
   background-color: #2A9D8F;
   border: 2px solid #000000;
-  box-sizing: border-box;
+  padding: 8px 50px;
   border-radius: 8px;
-
   font-family: Dosis;
   font-style: normal;
   font-weight: 600;
   font-size: 23px;
   line-height: 29px;
   color: #FFFFFF;
-  /* margin-bottom: 2%; */
 }

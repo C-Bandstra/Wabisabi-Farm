@@ -1,40 +1,24 @@
 .footer {
-  background-color: #774936;
-  display: flex;
-  padding: 60px 10px;
-  justify-content: center;
-}
-
-.foot-nav {
+  background-color: #533F3A;
   display: flex;
   justify-content: space-between;
-  width: 800px;
+  padding: 5px 20px;
+  color: #DDDDDD;
 }
 
-.foot-column {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  max-width: 250px;
-}
-
-.foot-link {
-  font-family: Titillium Web;
+.footer-text {
+  font-family: Dosis;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  width: fit-content;
-  
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: #DDDDDD;
 }
 
-.facebook-icon {
-  width: 30px;
-  height: 30px;
+.property {
+  text-align: left;
 }
 
-.center {
-  margin: 40px 0px;
-}
+  .creation {
+    text-align: right;
+  }
