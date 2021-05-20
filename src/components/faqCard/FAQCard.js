@@ -11,7 +11,7 @@ const FAQCard = ({ question, answer }) => {
 
       <div className="wrapper">
         <p className="question">{question}</p>
-        <img src="/assets/open.png" className={`open-icon ${isOpen ? "active" : ""}`}/>
+        <img alt="Arrow which determines open or closed state" src="/assets/open.png" className={`open-icon ${isOpen ? "active" : ""}`}/>
       </div>
 
       <p className={`answer ${isOpen ? "active" : ""}`}>{answer}</p>

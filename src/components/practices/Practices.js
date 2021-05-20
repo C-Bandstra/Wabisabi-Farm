@@ -1,5 +1,4 @@
 import './Practices.css';
-import NavBar from "../navbar/NavBar"
 
 const Practices = () => {
   return (
