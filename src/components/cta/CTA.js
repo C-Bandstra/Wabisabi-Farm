@@ -5,7 +5,7 @@ const CTA = ({ type, image, header, text}) => {
   return (
     <section className="cta">
       <div className="cta-icon-container">
-        <img className={`${type}-icon`} src={ image }/>
+        <img alt="" className={`${type}-icon`} src={ image }/>
       </div>
       <Link className="cta-content" to="/GrowingPractices">
           <h3 className="cta-header">{ header }</h3>

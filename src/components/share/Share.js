@@ -18,7 +18,7 @@ const Share = () => {
         and veggies you love, all while supporting a local farm.
         </p>
       </div>
-      <img src="/assets/share.png"/>
+      <img alt="Vegetable market table" src="/assets/share.png"/>
     </div>
   );
 }

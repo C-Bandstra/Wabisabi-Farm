@@ -19,7 +19,7 @@ const FooterNav = () => {
           <Link className="foot-link">Growing Practices</Link>
           <Link className="foot-link center">Join Us</Link>
           <Link className="foot-link">
-            <img className="facebook-icon" src="/assets/facebook.png"/>
+            <img alt="Facebook link" className="facebook-icon" src="/assets/facebook.png"/>
           </Link>
         </div>
       </section>
