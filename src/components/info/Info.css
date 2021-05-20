@@ -38,9 +38,7 @@
 }
 
 .info-text-container {
-  max-width: 750px;
-  /* width: 100%; */
-  padding: ;
+  max-width: 810px;
   display: flex;
   text-align: left;
   flex-direction: column;
