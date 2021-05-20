@@ -3,12 +3,12 @@ import '../../index.css';
 
 const Info = () => {
   return (
-    <div className="info">
+    <div id="Info" className="info">
       <section className="info-header-container">
         <h4 className="info-header-1">INFO</h4>
         <h5 className="info-header-2">How It Works</h5>
       </section>
-      <section class="info-text-container">
+      <section className="info-text-container">
         <p className="info-text">Members are encouraged to bring reusable bags to fill with their weekly bounty and leave the box at their respective pick up location.  Each member will be allotted two Farm Share boxes with their seasonal share. If the boxes aren't returned to us to fill up with the next week's harvest, we will supply extra boxes for a small fee and deliver the share.</p>
         <p className="info-text">Wednesday drop sites located at: The Farm, Johnston, Des Moines, Urbandale, West Des Moines and Ankeny.</p>
         <p className="info-text">The 'Regular' Season Share ($28 per week) will run for 20 weeks, as weather permits, (mid-May to the end of September) and will consist of a seasonal harvest every week.  In this share there will be garden staple crops like lettuce, spinach, green beans, potatoes, garlic, tomatoes, peppers, etc as well as some of the more unique vegetables like kohlrabi, heirloom tomatoes, eggplants and more.  Please refer to the produce calendar to see anticipated times of availability for different crops. </p>

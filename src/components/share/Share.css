@@ -1,28 +1,22 @@
 .share {
-  width: 100%;
-  height: 60%;
   background-color: #8A5A44;
   display: flex;
   align-items: center;
+  padding-left: 80px;
 }
 
-.content {
-  width: 50%;
-  height: 100%;
+/* .content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
+} */
 
-.share-header-container {
-  width: 82%;
-  height: 25%;
+/* .share-header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
+} */
 
 .share-text {
   font-family: Titillium Web;
@@ -31,16 +25,16 @@
   font-size: 1em;
   line-height: 1.5em;
   color: #FFFFFF;
-  width: 82%;
+  padding-right: 80px;
+  margin: 0;
   text-align: left;
 }
 
 .share-header-1,
 .share-header-2 {
   color: #FFFFFF;
-  
+  padding: 0;
   text-align: left;
-  width: 100%;
 }
 
 .share-header-1 {

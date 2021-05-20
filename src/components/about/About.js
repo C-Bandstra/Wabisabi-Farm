@@ -1,10 +1,12 @@
 import './About.css';
-import Header from '../header/Header'
 
 const About = () => {
   return (
-    <div className="about">
-      <Header h1="ABOUT US" h2="Who We Are" />
+    <div id="About" className="about">
+      <section className="header-container">
+        <header className="header-1">ABOUT US</header>
+        <header className="header-2">Who We Are</header>
+      </section>
       <section className="text-container">
         <p className="about-text">We are a Certified Organic Fruit, Vegetable,
           Herb and Transplant Farm located about 20 miles

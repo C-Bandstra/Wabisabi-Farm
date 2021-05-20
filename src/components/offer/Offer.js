@@ -6,8 +6,8 @@ const Offer = () => {
     <div className="offer">
 
       <section className="offer-card save">
-        <div className="icon-container save-container">
-          <img src="/assets/save.png" className="offer-icon save-icon"/>
+        <div className="icon-container">
+          <img alt="Dollar sign; Save Money" src="/assets/save.png" className="offer-icon save-icon"/>
         </div>
         <p className="card-header">Save Money.</p>
         <p className="card-text">Joining a food share reduces food waste and improves the value of your food dollars. </p>
@@ -15,7 +15,7 @@ const Offer = () => {
 
       <section className="offer-card customize">
         <div className="icon-container">
-          <img src="/assets/basket.png" className="offer-icon"/>
+          <img alt="Customized vegetable basket" src="/assets/basket.png" className="offer-icon"/>
         </div>
         <p className="card-header">Customize Your Share.</p>
         <p className="card-text">Participants can customize their share which allows you to select preferences on what is included in your weekly/bi-weekly share.</p>
@@ -23,7 +23,7 @@ const Offer = () => {
 
       <section className="offer-card good">
         <div className="icon-container">
-          <img src="/assets/people.png" className="offer-icon"/>
+          <img alt="Community holding hands" src="/assets/people.png" className="offer-icon"/>
         </div>    
         <p className="card-header">Eat Good. Do Good.</p>
         <p className="card-text">Join us and receive a freshly harvested box of Certified Organic fruits and veggies you love, all while supporting a local farm.</p>

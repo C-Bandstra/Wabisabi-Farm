@@ -6,8 +6,8 @@ const Share = () => {
     <div className="share">
       <div className="content">
         <section className="share-header-container">
-          <h2 className="share-header-1 header-1">COMMUNITY</h2>
-          <h3 className="share-header-2 header-2">Wabisabi Farm Share</h3>
+          <p className="share-header-1 header-1">COMMUNITY</p>
+          <p className="share-header-2 header-2">Wabi Sabi Farm Share</p>
         </section>
         <p className="share-text">A Wabi Sabi Farm Share is a 
         customizable share which allows our members to select 
@@ -18,7 +18,7 @@ const Share = () => {
         and veggies you love, all while supporting a local farm.
         </p>
       </div>
-      <img src="/assets/share.png"/>
+      <img alt="Vegetable market table" src="/assets/share.png"/>
     </div>
   );
 }
