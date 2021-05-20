@@ -12,6 +12,7 @@
   align-self: flex-end;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .cta-header {
@@ -43,9 +44,18 @@
 }
 
 .grow-icon {
-  box-sizing: border-box;
   width: 100%;
   padding-top: 10px;
+}
+
+.water-icon {
+  width: 75%;
+  padding-top: 60px;
+}
+
+.plant-icon {
+  width: 50%;
+  padding-top: 60px;
 }
 
 .arrow {
