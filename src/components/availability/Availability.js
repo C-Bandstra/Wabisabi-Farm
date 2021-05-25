@@ -4,7 +4,6 @@ import NavBar from "../navbar/NavBar"
 const Availability = () => {
   return (
     <div className="availability">
-      <NavBar />
     </div>
   );
 }
