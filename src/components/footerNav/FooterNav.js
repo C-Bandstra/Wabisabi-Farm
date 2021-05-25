@@ -40,7 +40,7 @@ const FooterNav = () => {
     contact: {
       id: "Contact",
       title: "Contact Us",
-      offset: "",
+      offset: "0",
       center: "center"
     },
   }
