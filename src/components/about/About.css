@@ -1,0 +1,51 @@
+.about {
+  background-color: #CBD7C7;
+  padding: 50px 50px;
+  /* border: 1px solid black; */
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.text-container {
+  margin: auto;
+  max-width: 750px;
+  
+}
+
+.about-text {
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  color: #000000;
+  text-align: left;
+  justify-self: center;
+}
+
+.header-1 {
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.135em;
+  color: #797979;
+}
+
+.header-2 {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.6em;
+  color: #000000;
+  padding: 0px 110px;
+  margin: 0;
+  text-align: center;
+}

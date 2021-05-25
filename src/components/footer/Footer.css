@@ -1,0 +1,24 @@
+.footer {
+  background-color: #533F3A;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  color: #DDDDDD;
+}
+
+.footer-text {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: #DDDDDD;
+}
+
+.property {
+  text-align: left;
+}
+
+  .creation {
+    text-align: right;
+  }

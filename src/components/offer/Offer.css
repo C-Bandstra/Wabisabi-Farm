@@ -1,0 +1,61 @@
+.offer {
+  display: flex;
+}
+
+.offer-card {
+  width: 33.33%;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.save {
+  background-color: #E07A5F;
+}
+
+.customize {
+  background-color: #E09F3E;
+}
+
+.good {
+  background-color: #2A9D8F;
+}
+
+.card-header {
+  text-align: left;
+  margin: 0;
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.card-text {
+  text-align: left;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #FFFFFF;
+}
+
+.icon-container {
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.offer-icon {
+  width: 55px;
+}
+
+.save-icon {
+  margin-left: -18px;
+}

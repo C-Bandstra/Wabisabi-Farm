@@ -1,0 +1,63 @@
+
+.cta {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #8A5A44;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cta-icon-container {
+  width: 30%;
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cta-header {
+  margin: 0;
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.135em;
+  color: #CBD7C7;
+}
+
+.cta-content {
+  width: 55%;
+  align-self: center;
+  text-align: left;
+  text-decoration: none;
+}
+
+.cta-text {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  margin: 20px 0px;
+  color: #CBD7C7;
+}
+
+.grow-icon {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.water-icon {
+  width: 75%;
+  padding-top: 60px;
+}
+
+.plant-icon {
+  width: 50%;
+  padding-top: 60px;
+}
+
+.arrow {
+  width: 27%;
+}
