@@ -3,7 +3,7 @@ import '../../index.css';
 
 const Share = () => {
   return (
-    <div className="share">
+    <div id="Share" className="share">
       <div className="content">
         <section className="share-header-container">
           <p className="share-header-1 header-1">COMMUNITY</p>
