@@ -1,28 +1,12 @@
 import './Footer.css';
-import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
     <section className="footer">
-      <section className="foot-nav">
-        <div className="foot-column">
-          <Link className="foot-link">About Us</Link>
-          <Link className="foot-link center">Food Share</Link>
-          <Link className="foot-link">How It Works</Link>
-        </div>
-        <div className="foot-column">
-          <Link className="foot-link">Availability</Link>
-          <Link className="foot-link center">Contact Us</Link>
-          <Link className="foot-link">FAQs</Link>
-        </div>
-        <div className="foot-column">
-          <Link className="foot-link">Growing Practices</Link>
-          <Link className="foot-link center">Join Us</Link>
-          <Link className="foot-link">
-            <img className="facebook-icon" src="/assets/facebook.png"/>
-          </Link>
-        </div>
-      </section>
+      <p className="creation footer-text">
+      © 2021 Wabi Sabi Farm. All rights reserved
+      </p>
+      <p className="location footer-text">Granger, Iowa 50109</p>
     </section>
   );
 }

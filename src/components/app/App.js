@@ -1,35 +1,33 @@
 import './App.css';
 import React from "react"
-import Home from '../home/Home'
+import Home from '../../views/Home'
 import { Switch, Route } from "react-router-dom";
-import Availability from '../availability/Availability'
-import FAQ from '../faq/FAQ'
-import CTA from "../cta/CTA"
-import NavBar from "../navbar/NavBar"
-import Practices from "../practices/Practices"
+import FAQs from '../../views/FAQs'
+import GrowingPractices from '../../views/GrowingPractices'
+import ProduceAvailability from '../../views/ProduceAvailability'
 
 const App = () => {
 
   return (
     <div className="App">
       <Switch>
+
         <Route path="/Availability">
-          <Availability />
+          <ProduceAvailability />
         </Route>
-        <Route path="/FAQS">
-          <NavBar type="nav-2" title={<p className="title">FAQ</p>}/>
-          <FAQ />
-          <CTA />
-        </Route>
-        <Route path="/Join">
-          
-        </Route>
+
         <Route path="/GrowingPractices">
-          <Practices />
+          <GrowingPractices />
         </Route>
+
+        <Route path="/FAQs">
+          <FAQs />
+        </Route>
+
         <Route path="/">
           <Home />
         </Route>
+
       </Switch>
     </div>
   );

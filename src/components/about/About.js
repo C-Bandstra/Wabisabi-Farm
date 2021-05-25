@@ -1,10 +1,8 @@
 import './About.css';
-import Header from '../header/Header'
 
 const About = () => {
   return (
     <div id="About" className="about">
-      {/* <Header h1="ABOUT US" h2="Who We Are" /> */}
       <section className="header-container">
         <header className="header-1">ABOUT US</header>
         <header className="header-2">Who We Are</header>

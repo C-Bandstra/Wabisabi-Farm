@@ -3,7 +3,7 @@ import '../../index.css';
 
 const Share = () => {
   return (
-    <div className="share">
+    <div id="Share" className="share">
       <div className="content">
         <section className="share-header-container">
           <p className="share-header-1 header-1">COMMUNITY</p>
@@ -18,7 +18,7 @@ const Share = () => {
         and veggies you love, all while supporting a local farm.
         </p>
       </div>
-      <img src="/assets/share.png"/>
+      <img alt="Vegetable market table" src="/assets/share.png"/>
     </div>
   );
 }

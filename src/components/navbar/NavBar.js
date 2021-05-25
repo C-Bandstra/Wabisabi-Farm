@@ -1,12 +1,9 @@
 import './NavBar.css';
 import utilities from '../../utilities'
-import { useState } from 'react'
 import { useHistory, Link } from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const NavBar = ({ type, title }) => {
-  const [ showHeader, updateBool ] = useState(false);
-
   const history = useHistory();
 
   const generateRoutes = () => {
@@ -34,7 +31,7 @@ const NavBar = ({ type, title }) => {
         { anchorLinks }
         <Link className="link" to="/FAQs">FAQs</Link>
         <span className="vertical-line"></span>
-        <Link className="link" to="/Join">Join Us</Link>
+        <a href="https://www.harvie.farm/farm/wabi-sabi-farm/signup" className="link">Join Us</a>
       </>
     )
   }
@@ -44,7 +41,7 @@ const NavBar = ({ type, title }) => {
 
   return (
       <div className={`nav-header ${type}`}>
-        <img className={`logo ${type}`} src="/assets/logo.png" />
+        <img alt="Wabi Sabi Farm logo" className={`logo ${type}`} src="/assets/logo.png" />
         <div className={`nav ${type}`}>
            {routes}
         </div>
