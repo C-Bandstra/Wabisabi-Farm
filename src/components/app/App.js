@@ -5,11 +5,12 @@ import { Switch, Route } from "react-router-dom";
 import FAQs from '../../views/FAQs'
 import GrowingPractices from '../../views/GrowingPractices'
 import ProduceAvailability from '../../views/ProduceAvailability'
-
+import ScrollToTop from '../ScrollToTop'
 const App = () => {
 
   return (
     <div className="App">
+      <ScrollToTop />
       <Switch>
 
         <Route path="/Availability">

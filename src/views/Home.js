@@ -16,7 +16,9 @@ const Home = () => {
       <Share />
       <Offer />
       <Info />
-      <CTA type="water" image="/assets/water.png" header="GROWING PRACTICES" text="Learn more about how we grow our vegetables and what we put into the soil." route="/GrowingPractices"/>
+      <CTA imgType="grow" image="/assets/grow.png" header="GROWING PRACTICES" text="Learn more about how we grow our vegetables and what we put into the soil." route="/GrowingPractices" ctaType="normal" arrow="1"/>
+      <CTA imgType="produce" image="/assets/availability.png" header="PRODUCE AVAILABILITY" text="Check out our seasonal graph see when our variety of Fruits, Vegetables, and Garden Greens" route="/Availability" ctaType="reverse" color="color" arrow="2"/>
+      {/* <AvailabilityCTA /> */}
       <Contact />
       <FooterNav />
       <Footer />

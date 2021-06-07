@@ -1,3 +1,59 @@
 .availability {
-  background-color: black;
+  background-color: #D5DFD2;
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.availability-header-1 {
+  font-family: Ruda;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.135em;
+  color: #797979;
+  margin: 0;
+}
+
+.availability-header-2 {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.graph-container {
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.graph-container {
+  border-radius: 25px;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.graph-container::-webkit-scrollbar {
+  display: none;
+}
+
+.availability-legend {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  margin-bottom: 15px;
 }

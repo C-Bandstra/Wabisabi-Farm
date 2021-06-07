@@ -10,7 +10,7 @@ const GrowingPractices = () => {
     <section className="GrowingPractices">
       <NavBar type="nav-2" title={<p className="title practice-title">Growing Practices</p>}/>
       <Practices />
-      <CTA type="plant" image="/assets/plant.png" header="FAQ's" text="Have questions about how the food share works, or what we feed our plants?" route="/FAQs"/>
+      <CTA imgType="plant" image="/assets/plant.png" header="FAQ's" text="Have questions about how the food share works, or what we feed our plants?" route="/FAQs" arrow="1"/>
       <FooterNav />
       <Footer />
     </section>

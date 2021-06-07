@@ -43,21 +43,55 @@
   color: #CBD7C7;
 }
 
-.grow-icon {
+.grow {
   width: 100%;
   padding-top: 10px;
+  margin-bottom: -2px;
 }
 
-.water-icon {
+.water {
   width: 75%;
   padding-top: 60px;
 }
 
-.plant-icon {
+.plant {
   width: 50%;
   padding-top: 60px;
 }
 
+.produce {
+  width: 100%;
+  padding-top: 10px;
+}
+
 .arrow {
   width: 27%;
+}
+
+.produce {
+  flex-direction: row-reverse;
+  background-color: #CBD7C7;
+  padding: 30px 30px 0px 30px;
+  display: flex;
+  padding-top: 80px;
+}
+
+.reverse {
+  background-color: #CBD7C7;
+  flex-direction: row-reverse;
+  color: white;
+}
+
+.color {
+  color: #B07D62;
+}
+
+@media only screen and (max-width: 688px) {
+  .icon {
+    /* display: none; */
+  }
+
+  .cta-text {
+    font-size: 24px;
+  }
 }

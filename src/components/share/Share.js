@@ -12,13 +12,14 @@ const Share = () => {
         <p className="share-text">A Wabi Sabi Farm Share is a 
         customizable share which allows our members to select 
         preferences on what is included in their weekly/bi-weekly 
-        share.  Customizing your share reduces food waste and 
-        improves the value of your food dollars.  Join us and 
+        share. Join us and 
         receive a freshly harvested box of Certified Organic fruits 
         and veggies you love, all while supporting a local farm.
         </p>
       </div>
-      <img alt="Vegetable market table" src="/assets/share.png"/>
+      <div className="img-wrapper">
+        <img className="share-img" src="/assets/share.png" />
+      </div>
     </div>
   );
 }

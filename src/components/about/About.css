@@ -49,3 +49,16 @@
   margin: 0;
   text-align: center;
 }
+
+@media only screen and (max-width: 688px) {
+  .about {
+    padding: 50px;
+  }
+
+  .header-2 {
+    padding: 0px;
+  }
+
+  .about-text {
+  }
+}
