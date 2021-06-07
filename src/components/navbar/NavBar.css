@@ -31,6 +31,11 @@
   background-color: white;
 }
 
+.logo {
+  /* width: 230px;
+  height: 180px; */
+}
+
 /* NavBar 2 */
 
 .nav.nav-2 {
@@ -67,4 +72,24 @@
 
 .practice-title {
   left: 50%; 
+}
+
+@media only screen and (max-width: 950px) {
+  .nav {
+    flex-direction: column;
+    margin: 0;
+    display: none;
+  }
+
+  .link {
+    /* text-align: right; */
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .logo {
+    max-height: 100px;
+  }
 }
