@@ -27,7 +27,7 @@ const NavBar = ({ type, title }) => {
     return (
       <>
         <Link className="link" to="/">Home</Link>
-        <Link className="link" to="/Availability">Food Availability</Link>
+        <Link className="link" to="/Availability">Produce Availability</Link>
         { anchorLinks }
         <Link className="link" to="/FAQs">FAQs</Link>
         <span className="vertical-line"></span>
@@ -40,12 +40,12 @@ const NavBar = ({ type, title }) => {
 
 
   return (
-      <div className={`nav-header ${type}`}>
-        <img alt="Wabi Sabi Farm logo" className={`logo ${type}`} src="/assets/logo.png" />
-        <div className={`nav ${type}`}>
-           {routes}
-        </div>
-        { title }
+    <div className={`nav-header ${type}`}>
+      <img alt="Wabi Sabi Farm logo" className={`logo ${type}`} src="/assets/logo.png" />
+      <div className={`nav ${type}`}>
+          {routes}
+      </div>
+      { title }
     </div>
   );
 }
