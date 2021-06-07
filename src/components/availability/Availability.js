@@ -1,6 +1,4 @@
 import './Availability.css';
-import ProduceCard from "../produceCard/ProduceCard"
-import NavBar from "../navbar/NavBar"
 
 const Availability = () => {
   return (
