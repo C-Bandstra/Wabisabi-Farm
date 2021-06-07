@@ -59,3 +59,13 @@
 .save-icon {
   margin-left: -18px;
 }
+
+@media only screen and (max-width: 688px) {
+  .offer {
+    flex-direction: column;
+  }
+
+  .offer-card {
+    width: 100%;
+  }
+}
