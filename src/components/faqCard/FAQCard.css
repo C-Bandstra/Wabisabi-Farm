@@ -49,3 +49,10 @@
 .answer.active {
   display: block;
 }
+
+@media only screen and (max-width: 688px) {
+  .faq-card {
+    /* width: auto; */
+    padding: 5px 15px;
+  }
+}

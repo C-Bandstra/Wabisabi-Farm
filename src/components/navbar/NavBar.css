@@ -74,7 +74,7 @@
   left: 50%; 
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 688px) {
   .nav {
     flex-direction: column;
     margin: 0;
@@ -85,11 +85,18 @@
     /* text-align: right; */
   }
 
+  .logo.nav-2 {
+    width: 125px;
+  }
+
   .vertical-line {
     display: none;
   }
 
-  .logo {
-    max-height: 100px;
+  .title {
+    position: absolute;
+    font-size: 3em;
+    left: 50%; 
   }
+
 }
