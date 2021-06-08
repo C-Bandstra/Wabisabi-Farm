@@ -57,3 +57,23 @@
   top: 0;
   margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 688px) {
+  .availability {
+    padding: 30px 20px;
+  }
+
+  .graph-container {
+    border-radius: 7px;
+    height: 50vh;
+  }
+
+  .availability-header-1 {
+    font-size: 13px;
+  }
+
+  .availability-header-2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+}
