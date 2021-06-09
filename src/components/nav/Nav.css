@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  padding: 0px 20px;
+  margin-top: 25px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+}
+
+.nav.nav-2 {
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 15px;
+  letter-spacing: 0.135em;
+  color: #FFFFFF;
+}
+
+.vertical-line {
+  margin-top: 8px;
+  padding: 16px 1px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 688px) {
+  .nav {
+    flex-direction: column;
+    margin: 0;
+    display: none;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+}

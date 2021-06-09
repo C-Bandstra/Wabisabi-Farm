@@ -1,0 +1,29 @@
+.fa-bars {
+  color: #FFFFFF;
+  font-size: 1.25em;
+  z-index: 1;
+}
+
+.burg-link {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  background-color: white;
+  z-index: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container {
+  background-color: white;
+}
+
+.fa-bars:hover {
+  color: grey;
+}
