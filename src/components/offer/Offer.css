@@ -64,8 +64,9 @@
   .offer {
     flex-direction: column;
   }
-
+  
   .offer-card {
     width: 100%;
+    padding: 20px 40px;
   }
 }
