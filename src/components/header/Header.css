@@ -37,6 +37,7 @@
 
 
 @media only screen and (max-width: 688px) {
+  .logo,
   .logo.nav-2 {
     width: 125px;
   }

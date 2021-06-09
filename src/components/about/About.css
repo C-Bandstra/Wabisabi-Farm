@@ -52,10 +52,10 @@
 
 @media only screen and (max-width: 688px) {
   .about {
-    padding: 50px;
+    padding: 40px;
   }
 
-  .header-2 {
+  .about-header-2 {
     padding: 0px;
   }
 
