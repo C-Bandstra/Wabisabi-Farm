@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div id="About" className="about">
       <section className="header-container">
-        <header className="header-1">ABOUT US</header>
-        <header className="header-2">Who We Are</header>
+        <header className="about-header-1">ABOUT US</header>
+        <header className="about-header-2">Who We Are</header>
       </section>
       <section className="text-container">
         <p className="about-text">We are a Certified Organic Fruit, Vegetable,

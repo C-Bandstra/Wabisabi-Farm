@@ -1,9 +1,9 @@
-import './NavBar.css';
+import './Nav.css';
 import utilities from '../../utilities'
 import { useHistory, Link } from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const NavBar = ({ type, title }) => {
+const NavBar = ({ type }) => {
   const history = useHistory();
 
   const generateRoutes = () => {
@@ -40,12 +40,8 @@ const NavBar = ({ type, title }) => {
 
 
   return (
-    <div className={`nav-header ${type}`}>
-      <img alt="Wabi Sabi Farm logo" className={`logo ${type}`} src="/assets/logo.png" />
-      <div className={`nav ${type}`}>
-          {routes}
-      </div>
-      { title }
+    <div className={`nav ${type}`}>
+      {routes}
     </div>
   );
 }
