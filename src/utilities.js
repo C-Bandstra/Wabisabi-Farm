@@ -1,8 +1,9 @@
 const utilities = {
-  scroll(id) {
+  scroll(id, yOffset) {
     setTimeout(() => {
       const div = document.getElementById(`${id}`)
-      div.scrollIntoView({behavior: "smooth"})
+      const y = div.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth"})
     }, 100)
   }
 }
