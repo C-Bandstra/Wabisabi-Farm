@@ -3,9 +3,10 @@ import React from "react"
 import Home from '../../views/Home'
 import { Switch, Route } from "react-router-dom";
 import FAQs from '../../views/FAQs'
-import GrowingPractices from '../../views/GrowingPractices'
+// import GrowingPractices from '../../views/GrowingPractices'
 import ProduceAvailability from '../../views/ProduceAvailability'
 import ScrollToTop from '../ScrollToTop'
+import BurgerNav from '../burgerNav/BurgerNav';
 const App = () => {
 
   return (
@@ -15,18 +16,22 @@ const App = () => {
 
         <Route path="/Availability">
           <ProduceAvailability />
+          <BurgerNav />
         </Route>
 
-        <Route path="/GrowingPractices">
+        {/* <Route path="/GrowingPractices">
           <GrowingPractices />
-        </Route>
+          <BurgerNav />
+        </Route> */}
 
         <Route path="/FAQs">
           <FAQs />
+          <BurgerNav />
         </Route>
 
         <Route path="/">
           <Home />
+          <BurgerNav />
         </Route>
 
       </Switch>
