@@ -11,7 +11,7 @@ const BurgerNav = () => {
   return ( 
     <div className="burger-nav hide" onClick={() => hideNav()}>
       <div className="burg-nav-header">
-        <img alt="Wabi Sabi Farm logo" className="logo" src="/assets/logo.png" />
+        <img alt="Wabi Sabi Farm logo" className="burger-logo" src="/assets/logo.png" />
         <div className="icon-container">
            <img alt="Close Icon" className="close-icon" src="/assets/close-white.png" />
         </div>                                                              
