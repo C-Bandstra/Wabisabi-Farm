@@ -55,4 +55,10 @@
     /* width: auto; */
     padding: 5px 15px;
   }
+
+  .question {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  }
 }

@@ -43,6 +43,7 @@
   font-size: 1em;
   line-height: 1.5em;
   color: #FFFFFF;
+  letter-spacing: 0.5px;
 }
 
 .icon-container {
@@ -67,6 +68,6 @@
   
   .offer-card {
     width: 100%;
-    padding: 20px 40px;
+    padding: 15px 40px;
   }
 }

@@ -1,10 +1,10 @@
 .info {
-  padding: 50px 20px;
+  padding: 50px 20px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #CBD7C7;
+  background-color: #D5DFD2;
 }
 
 .info-header-container {
@@ -51,10 +51,11 @@
   font-family: Titillium Web;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   color: #000000;
   margin-top: 2%;
+  letter-spacing: 0.5px;
 }
 
 .join-us-btn {
@@ -68,10 +69,20 @@
   font-size: 23px;
   line-height: 29px;
   color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.join-us-btn:hover {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 688px) {
   .info {
-    padding: 40px;
+    padding: 40px 40px 30px;
+  }
+
+  .join-us-btn {
+    margin: 50px 0px;
   }
 }

@@ -1,5 +1,5 @@
 .about {
-  background-color: #CBD7C7;
+  background-color: #DFE7DD;
   padding: 50px 50px;
   /* border: 1px solid black; */
 }
@@ -22,11 +22,12 @@
   font-family: Titillium Web;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1em;
+  font-size: 17px;
   line-height: 1.5em;
   color: #000000;
   text-align: left;
   justify-self: center;
+  letter-spacing: 0.5px;
 }
 
 .about-header-1 {
@@ -50,15 +51,16 @@
   text-align: center;
 }
 
+
 @media only screen and (max-width: 688px) {
   .about {
     padding: 40px;
   }
-
+  
   .about-header-2 {
     padding: 0px;
   }
-
+  
   .about-text {
   }
 }
