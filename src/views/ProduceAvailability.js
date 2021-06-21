@@ -9,7 +9,7 @@ const ProduceAvailability = () => {
     <section className="produce-availability">
       <Header type="header-2" title="Produce Availability"/>
       <Availability />
-      <CTA imgType="plant" cntType="plant-cnt" image="/assets/plant.png" header="FAQ's" text="Have questions about how the food share works, or what we choose to feed our plants?" route="/FAQs" ctaType="plant-cta" color="light" arrow="reverse"/>
+      <CTA imgType="plant" cntType="plant-cnt" image="/assets/plant.png" header="FAQ's" text="Learn more about how we operate and please reach out if you have any other questions!" route="/FAQs" ctaType="plant-cta" color="light" arrow="reverse"/>
       <FooterNav />
       <Footer />
     </section>
