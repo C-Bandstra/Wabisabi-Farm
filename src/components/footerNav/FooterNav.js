@@ -36,6 +36,12 @@ const FooterNav = () => {
       offset: "0",
       center: "center"
     },
+    practices: {
+      id: "Practices",
+      title: "Practices",
+      offset: "0",
+      center: ""
+    },
   }
 
   return (
@@ -54,7 +60,8 @@ const FooterNav = () => {
           <Link to="/FAQs" className="foot-link">FAQs</Link>
         </div>
         <div className="foot-column">
-          <a href="#Practices" className="foot-link">Growing Practices</a>
+          {generateRoute(links.practices)}
+          {/* <a href="#Practices" className="foot-link">Growing Practices</a> */}
           <a href="https://www.harvie.farm/farm/wabi-sabi-farm/signup" className="foot-link center">Join Us</a>
           <a className="foot-link" href="https://www.facebook.com/WabiSabiFarmIowa/" className="foot-link">
             <img alt="Facebook link" className="facebook-icon" src="/assets/facebook.png"/>
