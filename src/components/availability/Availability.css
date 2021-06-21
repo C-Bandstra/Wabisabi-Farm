@@ -63,7 +63,13 @@
     padding: 30px 20px;
   }
 
+  .availability-legend,
+  .availability-graph {
+    width: 100%;
+  }
+
   .graph-container {
+    display: block;
     border-radius: 5px;
     height: 50vh;
   }
