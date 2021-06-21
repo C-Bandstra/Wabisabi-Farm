@@ -3,6 +3,12 @@ import React, { useState } from "react";
 const Form = () => {
   const [status, setStatus] = useState("Contact Us");
 
+  const applyStyling = (e) => {
+    if(!e.target.classList.contains("input-placeholder")) {
+      e.target.classList.add("input-placeholder")
+    }
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -30,14 +36,23 @@ const Form = () => {
     let result = await response.json();
     
     alert(result.status);
+
+    reset(e)
   };
+
+  const reset = (e) => {
+    const inputs = document.querySelectorAll("input-placeholder");
+    inputs.forEach(input => input.classList.remove("input-placeholder"))
+    e.target.reset(e);
+  }
+
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
-        <input className="contact-input" placeholder="Name" required></input>
-        <input className="contact-input" placeholder="Email" required></input>
-        <input className="contact-input" placeholder="Subject" required></input>
-        <textarea rows="4" className="contact-input" placeholder="Message" required></textarea>
-        <button type="submit" className="contact-btn">{status}</button>
+    <form id="form" className="contact-form" onSubmit={handleSubmit}>
+        <input onClick={applyStyling} className="contact-input" placeholder="Name" required></input>
+        <input onClick={applyStyling} className="contact-input" placeholder="Email" required></input>
+        <input onClick={applyStyling} className="contact-input" placeholder="Subject" required></input>
+        <textarea rows="4" onClick={applyStyling} className="contact-input" placeholder="Message" required></textarea>
+        <button type="submit" className="contact-btn animation">{status}</button>
     </form>
   );
 };
