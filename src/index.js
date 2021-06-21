@@ -14,7 +14,32 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+const pulseElements = document.querySelectorAll('.animation');
+
+pulseElements.type = "pulse"
+
+const expandElements = document.querySelectorAll('.animation-2');
+
+expandElements.type = "expand"
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    let element = entry.target;
+    entry.isIntersecting ?
+    element.classList.add(element.dataset.animation) :
+    element.classList.remove(element.dataset.animation);
+  });
+});
+
+const animations = [pulseElements, expandElements];
+
+animations.forEach(animation => {
+  animation.forEach(element => {
+
+    element.dataset.animation = animation.type;
+    observer.observe(element);
+
+  })
+});
+
 reportWebVitals();
