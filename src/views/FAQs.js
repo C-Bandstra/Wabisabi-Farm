@@ -1,15 +1,16 @@
+import Nav from "../components/nav/Nav"
+import Header from "../components/header/Header"
 import FAQ from '../components/faq/FAQ'
 import CTA from "../components/cta/CTA"
 import FooterNav from "../components/footerNav/FooterNav"
 import Footer from "../components/footer/Footer"
-import Header from "../components/header/Header"
 
 const FAQs = () => {
   return (
     <section className="FAQs">
-      <Header title="FAQ" type="header-2"/>
+      <Header type="header-2" title="FAQ"/>
       <FAQ />
-      <CTA imgType="water" image="/assets/water.png" header="GROWING PRACTICES" text="Learn more about how we grow our vegetables and what we put into the soil." route="/GrowingPractices" arrow="1"/>
+      <CTA imgType="water" cntType="produce-cnt" image="/assets/water.png" header="PRODUCE AVAILABILITY" text="Check out our seasonal graph to decide which share is the right fit for you!" route="/Availability" ctaType="water-cta" color="light" arrow="reverse"/>
       <FooterNav />
       <Footer />
     </section>

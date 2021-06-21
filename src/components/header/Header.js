@@ -21,7 +21,7 @@ const Header = ({ type, title }) => {
         <>
           <img alt="Wabi Sabi Farm logo" className={`logo ${type}`} src="/assets/logo.png" />
           <Burger />
-          <p className="title">{ title }</p>
+          <p id="header-title" className="title">{ title }</p>
         </>
       ) : (
         <>

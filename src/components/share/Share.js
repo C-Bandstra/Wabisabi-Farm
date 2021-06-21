@@ -2,6 +2,7 @@ import './Share.css';
 import '../../index.css';
 
 const Share = () => {
+
   return (
     <div id="Share" className="share">
       <div className="content">

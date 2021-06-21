@@ -1,5 +1,5 @@
 .nav-wrap {
-  background-color: #774936;
+  background-color: #7b5744;
   display: flex;
   padding: 35px 10px;
   justify-content: center;
@@ -24,12 +24,11 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  width: fit-content;
-  
+  color: rgba(255, 255, 255, 0.8);
 }
 
+.instagram-icon,
 .facebook-icon {
   width: 30px;
   height: 30px;

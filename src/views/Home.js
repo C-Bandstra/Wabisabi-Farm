@@ -7,8 +7,13 @@ import CTA from "../components/cta/CTA"
 import Contact from "../components/contact/Contact"
 import FooterNav from "../components/footerNav/FooterNav"
 import Footer from "../components/footer/Footer"
+import Practices from '../components/practices/Practices'
 
 const Home = () => {
+  const mobileView = () => {
+
+  }
+
   return (
     <section className="home">
       <Hero />
@@ -16,9 +21,9 @@ const Home = () => {
       <Share />
       <Offer />
       <Info />
-      <CTA imgType="grow" image="/assets/grow.png" header="GROWING PRACTICES" text="Learn more about how we grow our vegetables and what we put into the soil." route="/GrowingPractices" ctaType="normal" arrow="1"/>
-      <CTA imgType="produce" image="/assets/availability.png" header="PRODUCE AVAILABILITY" text="Check out our seasonal graph see when our variety of Fruits, Vegetables, and Garden Greens" route="/Availability" ctaType="reverse" color="color" arrow="2"/>
-      {/* <AvailabilityCTA /> */}
+      <CTA imgType="plant" cntType="grow-cnt" image="/assets/grow-light.png" header="FAQ's" text="Have questions about how the food share works, or what we choose to feed our plants?" route="/FAQs" ctaType="plant-cta" color="light" arrow="reverse"/>
+      <Practices />
+      <CTA imgType="produce" cntType="produce-cnt" image="/assets/availability.png" header="PRODUCE AVAILABILITY" text="Check out our variety of Fruits, Vegetables, and Garden Greens!" route="/Availability" ctaType="availability-cta" color="regular" arrow="normal"/>
       <Contact />
       <FooterNav />
       <Footer />

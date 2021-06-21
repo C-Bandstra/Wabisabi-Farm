@@ -6,7 +6,7 @@ import Footer from "../components/footer/Footer"
 
 const GrowingPractices = () => {
   return (
-    <section className="GrowingPractices">
+    <section>
       <Header type="header-2" title="Growing Practices"/>
       <Practices />
       <CTA imgType="plant" image="/assets/plant.png" header="FAQ's" text="Have questions about how the food share works, or what we feed our plants?" route="/FAQs" arrow="1"/>

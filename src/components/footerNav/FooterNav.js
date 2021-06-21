@@ -8,10 +8,9 @@ const FooterNav = () => {
 
   
   const generateRoute = (link) => {
-    
     let anchorLinks =
     history.location.pathname !== '/' ?
-    <Link onClick={() => utilities.scroll(`${link.id}`)} className={`foot-link ${link.center}`} to="/">{ link.title }</Link>
+    <Link onClick={() => utilities.scroll(`${link.id}`, 20)} className={`foot-link ${link.center}`} to="/">{ link.title }</Link>
     :
     <AnchorLink className={`foot-link ${link.center}`} href={`#${link.id}`} offset={`${link.offset}`}>{ link.title }</AnchorLink>
     
@@ -25,17 +24,11 @@ const FooterNav = () => {
       offset: "80",
       center: ""
     },
-    share: {
-      id: "Share",
-      title: "Food Share",
-      offset: "55",
-      center: "center"
-    },
     info: {
       id: "Info",
       title: "How It Works",
       offset: "-40",
-      center: ""
+      center: "center"
     },
     contact: {
       id: "Contact",
@@ -50,8 +43,10 @@ const FooterNav = () => {
       <section className="foot-nav">
         <div className="foot-column">
           {generateRoute(links.about)}
-          {generateRoute(links.share)}
           {generateRoute(links.info)}
+          <a className="foot-link " href="https://www.instagram.com/wabisabifarmiowa/?hl=en" className="foot-link">
+            <img alt="Instagram link" className="instagram-icon" src="/assets/instagram.png"/>
+          </a>
         </div>
         <div className="foot-column">
           <Link to="/Availability" className="foot-link">Availability</Link>
@@ -59,7 +54,7 @@ const FooterNav = () => {
           <Link to="/FAQs" className="foot-link">FAQs</Link>
         </div>
         <div className="foot-column">
-          <Link to="/GrowingPractices" className="foot-link">Growing Practices</Link>
+          <a href="#Practices" className="foot-link">Growing Practices</a>
           <a href="https://www.harvie.farm/farm/wabi-sabi-farm/signup" className="foot-link center">Join Us</a>
           <a className="foot-link" href="https://www.facebook.com/WabiSabiFarmIowa/" className="foot-link">
             <img alt="Facebook link" className="facebook-icon" src="/assets/facebook.png"/>

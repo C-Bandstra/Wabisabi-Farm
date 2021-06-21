@@ -37,14 +37,28 @@
 
 
 @media only screen and (max-width: 688px) {
+
   .logo,
-  .logo.nav-2 {
+  .logo.header-2 {
     width: 125px;
   }
 
   .title {
     position: absolute;
-    font-size: 3em;
-    left: 50%; 
+    margin: 0;
+    top: 23%;
+    font-size: 1.75em;
+    left: 50%;
+    letter-spacing: 0.1em;
+    line-height: 45px;
+  }
+
+  .header {
+    align-items: center;
+    padding: 10px 10px 0px;
+  }
+
+  .title.mobile {
+
   }
 }
