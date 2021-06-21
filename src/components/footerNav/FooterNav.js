@@ -39,7 +39,7 @@ const FooterNav = () => {
     practices: {
       id: "Practices",
       title: "Practices",
-      offset: "0",
+      offset: "50",
       center: ""
     },
   }
