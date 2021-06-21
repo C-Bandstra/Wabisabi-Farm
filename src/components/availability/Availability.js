@@ -3,11 +3,11 @@ import './Availability.css';
 const Availability = () => {
   return (
     <div className="availability">
-      <h4 className="availability-header-1">WHAT'S IN SEASON</h4>
-      <h5 className="availability-header-2">Food Availaibility Charts</h5>
+      <p className="availability-header-1">WHAT'S IN SEASON</p>
+      <p className="availability-header-2">Wabi Sabi Growth Graph</p>
       <div className="graph-container" >
         <img className="availability-legend" src="/assets/legend.png" />
-        <img className="availability-graph" src="/assets/graph.png" />
+        <img className="availability-graph" src="/assets/graph-dark.png" />
       </div>
     </div>
   );
