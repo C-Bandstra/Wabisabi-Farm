@@ -30,6 +30,7 @@ const NavBar = ({ type }) => {
         <Link className="link" to="/Availability">Produce Availability</Link>
         { anchorLinks }
         <Link className="link" to="/FAQs">FAQs</Link>
+        <a href="http://wabisabi-farm.net/recipes/index.htm" className="link">Recipes</a>
         <span className="vertical-line"></span>
         <a href="https://www.harvie.farm/farm/wabi-sabi-farm/signup" className="link">Join Us</a>
       </>
