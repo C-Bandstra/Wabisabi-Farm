@@ -22,6 +22,7 @@ const BurgerNav = () => {
         <Link className="burg-link" to="/Availability">Produce</Link>
         <Link onClick={() => utilities.scroll("Contact", 0)}className="burg-link" to="/">Contact</Link>
         <Link className="burg-link" to="/FAQs">FAQs</Link>
+        <a href="http://wabisabi-farm.net/recipes/index.htm" className="burg-link">Recipes</a>
         <a href="https://www.harvie.farm/farm/wabi-sabi-farm/signup" className="burg-link">Join Us</a>
       </div>
     </div>
