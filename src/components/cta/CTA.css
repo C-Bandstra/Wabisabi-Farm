@@ -46,7 +46,7 @@
 
 .plant {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .produce {
@@ -54,7 +54,7 @@
   flex-direction: row-reverse;
   background-color: #8c644e;
   display: flex;
-  padding-top: 30px;
+  padding-top: 90px;
 }
 
 .join {
@@ -83,12 +83,6 @@
 
 .cta-icon-container.produce-cnt {
   width: 25%;
-}
-
-.arrow-container {
-}
-
-.arrow-container.reverse {
 }
 
 .cta-content.water-cta,
