@@ -24,7 +24,7 @@ const Form = () => {
       message: message.value,
     };
     
-    let response = await fetch("https://wabisabi-mailer.herokuapp.com/contact", {
+    let response = await fetch("/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
