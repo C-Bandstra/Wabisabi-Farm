@@ -23,22 +23,23 @@ const Form = () => {
       subject: subject.value,
       message: message.value,
     };
-    
-    let response = await fetch("/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
 
-    setStatus("Submit");
-
-    let result = await response.json();
-    
-    alert(result.status);
-
-    reset(e)
+    // "proxy": "https://wabisabi-mailer.herokuapp.com/"
+      let response = await fetch("loca/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(details),
+      });
+  
+      setStatus("Submit");
+  
+      let result = await response.json();
+      
+      alert(result.status);
+  
+      reset(e)
   };
 
   const reset = (e) => {
