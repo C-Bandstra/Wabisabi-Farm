@@ -15,59 +15,19 @@ const FAQ = () => {
       />
       <FAQCard 
         question="Can I split a share?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
+        answer="You are welcome to share your weekly/bi-weekly bounty.  We are not able to divide produce up at the farm, so it is your responsibility to divide up produce."
       />
       <FAQCard 
         question="What is the difference between a Full Share and a Half Share?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
+        answer="A Full Share is a weekly box of produce and a Half Share is filled just like a Full Share but is delivered every other week."
       />
       <FAQCard 
         question="What are the pick up times at the drop sites?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
+        answer="The pick up times at all our drop sites in the Des Moines Metro is 4:30 pm till 6pm.  Farm Pick Up begins at 3pm till around 8pm."
       />
       <FAQCard 
         question="Are there payment plans available?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
-      />
-      <FAQCard 
-        question="How does setting preferences at sign up work?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
-      />
-      <FAQCard 
-        question="How do I customize my weekly/bi-weekly Share?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
-      />
-      <FAQCard 
-        question="How Can I reschedule, change my pick up location or place a hold on my Share?"
-        answer="Yes, we are USDA Certified Organic and our inspection agency 
-        is the Iowa Department of Agriculture and Land Stewardship (IDALS).  
-        Our farm ground has been Certified Organic for over 18 years.  We do 
-        have partner farms we work with that are not Certified Organic and 
-        we always are very clear and transparent about that!"
+        answer="While we would appreciate full payment at time of sign up, there is a payment plan available.  25% due at signup, 25% due when first share delivered and the remaining 50% equally divided up throughout the season."
       />
     </div>
   );
